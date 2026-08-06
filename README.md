@@ -8,7 +8,7 @@
 ---
 ### 🚀 About Me
 
-- 🎓 Currently pursuing my B.Tech in ECSE at **KIIT University**  with a CGPA of 8.32.
+- 🎓 Currently pursuing my B.Tech in ECSE at **KIIT University**  with a CGPA of 8.36.
 - 🧠 Deeply interested in **AI & Machine Learning**, **Computer Architecture**, **Design and Analysis of Algorithms (DAA)** and **Ethical Hacking**.
 - 🔌 Building hands-on hardware and embedded systems projects, particularly utilizing the **ESP32 microcontroller** for IoT applications.
 - 💻 Exploring Signal Processing for EEG and ECG analysis.
