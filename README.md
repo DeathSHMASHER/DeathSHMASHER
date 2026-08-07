@@ -1,6 +1,7 @@
 <h1 align="center">Hi there, I'm Shahriyar Taufik 👋</h1>
 <h3 align="center">Web Developer | IoT Enthusiast | ECSE Student @ KIIT'27</h3>
 <p align="center">
+ 
 I am a B.Tech student in Electronics and Computer Science Engineering (ECSE) with a strong passion for bridging the gap between hardware and software. I love working on Artificial Intelligence, Embedded Systems, and building practical solutions.
 </p>
 
