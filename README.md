@@ -5,7 +5,7 @@ I am a B.Tech student in Electronics and Computer Science Engineering (ECSE) wit
 </p> 
 ---
 🚀 About Me
-
+ 
 - 🎓 Currently pursuing my B.Tech in ECSE at **KIIT University**  with a CGPA of 8.36.
 - 🧠 Deeply interested in **AI & Machine Learning**, **Computer Architecture**, **Design and Analysis of Algorithms (DAA)** and **Ethical Hacking**.
 - 🔌 Building hands-on hardware and embedded systems projects, particularly utilizing the **ESP32 microcontroller** for IoT applications.
