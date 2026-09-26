@@ -44,7 +44,7 @@ I build end-to-end systems where **AI, software and hardware meet** — from int
 
 # 🚀 Flagship Projects
 
-<details close>
+<details open>
 <summary><b><a href="https://shahriyartaufik.in/">🤖 shahriyartaufik.in — Personal Portfolio + Custom AI with Context & Tone Memory</a></b> &nbsp;<code>React</code> <code>RAG</code> <code>MCP</code> <code>Memory</code> <code>Live ↗</code></summary>
 <br>
 
@@ -87,7 +87,7 @@ My personal product and flagship developer portfolio featuring an integrated, cu
 
 ---
 
-<details open>
+<details close>
 <summary><b><a href="https://loop-ten-vert.vercel.app/login">🔄 Project LOOP — AI Customer-Feedback Intelligence Platform</a></b> &nbsp;<code>Next.js 14</code> <code>TypeScript</code> <code>Prisma</code> <code>RAG</code> <code>Live ↗</code></summary>
 <br>
 
@@ -183,7 +183,7 @@ A full-stack, production-grade educational management platform and coaching port
 
 ---
 
-<details open>
+<details close>
 <summary><b><a href="https://huggingface.co/spaces/NEwBEE67/FruitnVeg">🍎 FruitnVeg — Dual-Engine AI Vision (YOLOv8 + ViT)</a></b> &nbsp;<code>Python</code> <code>PyTorch</code> <code>YOLOv8</code> <code>ViT</code> <code>Hugging Face</code> <code>Live ↗</code></summary>
 <br>
 
