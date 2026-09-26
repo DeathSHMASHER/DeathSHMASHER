@@ -176,10 +176,10 @@ A full-stack, production-grade educational management platform and coaching port
 ---
 
 <details open>
-<summary><b><a href="https://github.com/DeathSHMASHER/Fruit-and-veg-">🍎 FruitnVeg — Dual-Engine AI Vision (YOLOv8 + ViT)</a></b> &nbsp;<code>Python</code> <code>PyTorch</code> <code>YOLOv8</code> <code>ViT</code> <code>Hugging Face</code></summary>
+<summary><b><a href="https://huggingface.co/spaces/NEwBEE67/FruitnVeg">🍎 FruitnVeg — Dual-Engine AI Vision (YOLOv8 + ViT)</a></b> &nbsp;<code>Python</code> <code>PyTorch</code> <code>YOLOv8</code> <code>ViT</code> <code>Hugging Face</code> <code>Live ↗</code></summary>
 <br>
 
-> **Repository:** [DeathSHMASHER/Fruit-and-veg-](https://github.com/DeathSHMASHER/Fruit-and-veg-) &nbsp;•&nbsp; **Deployment:** Hugging Face Space &nbsp;•&nbsp; **Focus:** Dual-Model Computer Vision
+> **Live Application:** [huggingface.co/spaces/NEwBEE67/FruitnVeg](https://huggingface.co/spaces/NEwBEE67/FruitnVeg) &nbsp;•&nbsp; **Repository:** [DeathSHMASHER/Fruit-and-veg-](https://github.com/DeathSHMASHER/Fruit-and-veg-) &nbsp;•&nbsp; **Deployment:** Hugging Face Space &nbsp;•&nbsp; **Focus:** Dual-Model Computer Vision
 
 An AI-powered computer vision pipeline running two state-of-the-art vision models in parallel for real-time produce recognition, localization, and classification.
 
@@ -190,6 +190,8 @@ An AI-powered computer vision pipeline running two state-of-the-art vision model
 - ⚡ **Interactive Web Interface**: Streamlit / Gradio powered deployment on Hugging Face Spaces for real-time image upload and inference visualization.
 
 **Tech Stack:** `Python` `PyTorch` `YOLOv8` `Vision Transformer (ViT)` `Hugging Face` `OpenCV`
+
+<p align="right"><a href="https://huggingface.co/spaces/NEwBEE67/FruitnVeg"><b>Try FruitnVeg Live on Hugging Face ↗</b></a></p>
 
 </details>
 
