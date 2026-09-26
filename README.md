@@ -44,7 +44,7 @@ I build end-to-end systems where **AI, software and hardware meet** — from int
 
 # 🚀 Flagship Projects
 
-<details open>
+<details close>
 <summary><b><a href="https://shahriyartaufik.in/">🤖 shahriyartaufik.in — Personal Portfolio + Custom AI with Context & Tone Memory</a></b> &nbsp;<code>React</code> <code>RAG</code> <code>MCP</code> <code>Memory</code> <code>Live ↗</code></summary>
 <br>
 
