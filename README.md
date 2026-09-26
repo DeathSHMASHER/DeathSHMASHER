@@ -13,11 +13,11 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/GSoC_'24_Batch-Postman_API_Challenge-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="GSoC '24 Batch - Postman Challenge" />
+  <a href="https://badges.parchment.com/public/assertions/1OhNk2tKQFarYBIhLtB_GA?identity__email=2330111@kiit.ac.in"><img src="https://img.shields.io/badge/Postman_Student_Expert-API_Fundamentals-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman API Fundamentals Student Expert" /></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/AWS_Academy-GenAI_Intern-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS Academy GenAI" />
+  <a href="https://drive.google.com/file/d/1fz4H4PZ39DUV3VBLDi_5hl_4VDtKbgaE/view?usp=drive_link"><img src="https://img.shields.io/badge/AWS_Academy-GenAI_Intern-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS Academy GenAI Certificate" /></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/AICTE-AI%2FML_Intern-0052CC?style=for-the-badge&logo=google&logoColor=white" alt="AICTE AI/ML" />
+  <a href="https://drive.google.com/file/d/1Tykamm1hTmY36A6Hq_Wdhm_aOxImayBj/view?usp=drive_link"><img src="https://img.shields.io/badge/AICTE_%2F_EduSkills-AI%2FML_Intern-0052CC?style=for-the-badge&logo=google&logoColor=white" alt="AICTE AI/ML Certificate" /></a>
 </p>
 
 <img src="./assets/dev-console.gif" alt="Animated developer console" width="100%">
@@ -330,14 +330,17 @@ Turn-based strategy and browser game experiments (`2-player-games` Element Battl
 
 # 🎓 Experience & Education
 
-**Google Summer of Code (GSoC) '24 Batch — Postman Challenge**  
-Selected contributor in the GSoC '24 cohort for the Postman Challenge. Worked extensively with API architecture, Postman collection automation, environment scripting, testing pipelines, and webhook workflows.
+**Google Summer of Code (GSoC) '24 Batch — Postman API Challenge**  
+Selected contributor in the GSoC '24 cohort for the Postman Challenge. Worked extensively with API architecture, Postman collection automation, environment scripting, automated integration testing suites, and webhook workflows.  
+> 🔗 **Official Credential:** [Postman API Fundamentals Student Expert (Verified Badge)](https://badges.parchment.com/public/assertions/1OhNk2tKQFarYBIhLtB_GA?identity__email=2330111@kiit.ac.in)
 
 **AWS Academy — GenAI Virtual Internship**  
-Completed a 10-week virtual internship focused on Generative AI, foundational models, and cloud-backed AI pipelines.
+Completed a 10-week virtual internship focused on Generative AI, foundational models, prompt engineering, and cloud-backed AI pipelines.  
+> 🔗 **Certificate Verification:** [AWS Academy Certificate (Google Drive)](https://drive.google.com/file/d/1fz4H4PZ39DUV3VBLDi_5hl_4VDtKbgaE/view?usp=drive_link)
 
 **AICTE / EduSkills — AI/ML Internship**  
-Completed a 10-week virtual AI/ML internship covering machine learning models, statistical evaluation, and data pipelines.
+Completed a 10-week virtual AI/ML internship covering machine learning models, statistical evaluation, and data engineering pipelines.  
+> 🔗 **Certificate Verification:** [AICTE / EduSkills Certificate (Google Drive)](https://drive.google.com/file/d/1Tykamm1hTmY36A6Hq_Wdhm_aOxImayBj/view?usp=drive_link)
 
 **KIIT University** — B.Tech, Electronics & Computer Science Engineering  
 **4th Year · CGPA 8.36**
@@ -346,7 +349,11 @@ Completed a 10-week virtual AI/ML internship covering machine learning models, s
 
 # 🏅 Certifications & Badges
 
-`🚀 GSoC '24 Batch (Postman Challenge)` · `🟠 Postman API Specialist` · `⚛️ React — HackerRank` · `⭐ 5★ C — HackerRank` · `☁️ AWS Academy GenAI` · `🤖 AICTE AI/ML`
+- 🟠 **[Postman API Fundamentals Student Expert](https://badges.parchment.com/public/assertions/1OhNk2tKQFarYBIhLtB_GA?identity__email=2330111@kiit.ac.in)** — Issued by Postman / Parchment (Nov 2024)
+- ☁️ **[AWS Academy Graduate — GenAI](https://drive.google.com/file/d/1fz4H4PZ39DUV3VBLDi_5hl_4VDtKbgaE/view?usp=drive_link)** — AWS Academy Virtual Internship
+- 🤖 **[AICTE / EduSkills — AI/ML Specialist](https://drive.google.com/file/d/1Tykamm1hTmY36A6Hq_Wdhm_aOxImayBj/view?usp=drive_link)** — AICTE Virtual Internship
+- ⚛️ **React (Basic)** — HackerRank Certified
+- ⭐ **5★ Problem Solving & C** — HackerRank
 
 ---
 
