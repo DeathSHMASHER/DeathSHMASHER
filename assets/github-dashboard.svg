@@ -126,7 +126,7 @@
     <path d="M0 14 Q0 0 14 0 L60 0" fill="none" stroke="#00f0ff" stroke-width="2.5"/>
     
     <text x="20" y="30" fill="#94a3b8" class="mono" font-size="11" font-weight="700" letter-spacing="1">&#x26A1; TOTAL CONTRIBUTIONS</text>
-    <text x="20" y="82" fill="#00f0ff" class="mono cyan-num" font-size="44" font-weight="800">493</text>
+    <text x="20" y="82" fill="#00f0ff" class="mono cyan-num" font-size="44" font-weight="800">494</text>
     <text x="20" y="108" fill="#64748b" class="mono" font-size="11">from GitHub contribution calendar</text>
     
     <rect x="20" y="122" width="252" height="6" rx="3" fill="#152132"/>
