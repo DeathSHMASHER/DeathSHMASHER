@@ -1,0 +1,142 @@
+name: Sync GitHub Profile
+
+on:
+  push:
+    branches: [main, master]
+    paths-ignore:
+      - 'assets/github-dashboard.svg'
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-profile-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Fetch contribution calendar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api graphql \
+            -f login="${{ github.repository_owner }}" \
+            -f query='
+              query($login:String!) {
+                user(login:$login) {
+                  contributionsCollection {
+                    contributionCalendar {
+                      totalContributions
+                      weeks {
+                        contributionDays {
+                          date
+                          contributionCount
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ' > contribution-data.json
+
+      - name: Render local dashboard
+        run: |
+          python - <<'PY'
+          import json
+          import datetime
+          import pathlib
+
+          data = json.loads(pathlib.Path("contribution-data.json").read_text(encoding="utf-8"))
+          user_data = data.get("data", {}).get("user")
+          if not user_data:
+              print(f"GraphQL returned unexpected data: {data}")
+              raise SystemExit(1)
+
+          cal = user_data["contributionsCollection"]["contributionCalendar"]
+
+          days = []
+          for week in cal["weeks"]:
+              for day in week["contributionDays"]:
+                  days.append((day["date"], int(day["contributionCount"])))
+          days.sort()
+
+          total = int(cal["totalContributions"])
+
+          longest = 0
+          run = 0
+          for _, count in days:
+              if count > 0:
+                  run += 1
+                  longest = max(longest, run)
+              else:
+                  run = 0
+
+          by_date = {datetime.date.fromisoformat(d): c for d, c in days}
+          today = datetime.date.today()
+          cursor = today if by_date.get(today, 0) > 0 else today - datetime.timedelta(days=1)
+          current = 0
+          while by_date.get(cursor, 0) > 0:
+              current += 1
+              cursor -= datetime.timedelta(days=1)
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="980" height="250" viewBox="0 0 980 250">
+          <defs><linearGradient id="bg" x1="0" x2="1"><stop offset="0" stop-color="#101522"/><stop offset="1" stop-color="#171b2a"/></linearGradient></defs>
+          <rect x="2" y="2" width="976" height="246" rx="24" fill="#0b0f17" stroke="#33445d" stroke-width="2"/>
+          <text x="34" y="38" fill="#dfe8f4" font-family="monospace" font-size="20" font-weight="700">GITHUB // ACTIVITY TELEMETRY</text>
+          <circle cx="928" cy="31" r="7" fill="#78dca5"/>
+          <text x="944" y="38" text-anchor="end" fill="#78dca5" font-family="monospace" font-size="13">SYNCED</text>
+          <rect x="28" y="58" width="294" height="150" rx="18" fill="url(#bg)" stroke="#29364c"/>
+          <rect x="343" y="58" width="294" height="150" rx="18" fill="url(#bg)" stroke="#29364c"/>
+          <rect x="658" y="58" width="294" height="150" rx="18" fill="url(#bg)" stroke="#29364c"/>
+          <text x="52" y="88" fill="#8fbef2" font-family="monospace" font-size="13">TOTAL CONTRIBUTIONS</text>
+          <text x="52" y="141" fill="#79b6ff" font-family="monospace" font-size="45" font-weight="700">{total:,}</text>
+          <text x="52" y="171" fill="#91a1b5" font-family="monospace" font-size="12">from GitHub contribution calendar</text>
+          <text x="367" y="88" fill="#c5a6ff" font-family="monospace" font-size="13">CURRENT STREAK</text>
+          <text x="367" y="141" fill="#c5a6ff" font-family="monospace" font-size="45" font-weight="700">{current}</text>
+          <text x="367" y="171" fill="#91a1b5" font-family="monospace" font-size="12">consecutive active days</text>
+          <text x="682" y="88" fill="#8fbef2" font-family="monospace" font-size="13">LONGEST STREAK</text>
+          <text x="682" y="141" fill="#79b6ff" font-family="monospace" font-size="45" font-weight="700">{longest}</text>
+          <text x="682" y="171" fill="#91a1b5" font-family="monospace" font-size="12">best consecutive run</text>
+          <line x1="34" y1="226" x2="946" y2="226" stroke="#26344a"/>
+          <text x="34" y="241" fill="#61738c" font-family="monospace" font-size="11">Auto-generated by GitHub Actions • {datetime.date.today().isoformat()}</text>
+          </svg>'''
+          pathlib.Path("assets").mkdir(parents=True, exist_ok=True)
+          pathlib.Path("assets/github-dashboard.svg").write_text(svg, encoding="utf-8")
+          PY
+
+      - name: Commit dashboard into main branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-dashboard.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: sync GitHub profile dashboard [skip ci]"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Publish snake to output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
