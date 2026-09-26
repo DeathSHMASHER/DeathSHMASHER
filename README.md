@@ -25,31 +25,31 @@ Shahriyar Taufik
 ├─ B.Tech ECSE @ KIIT University
 ├─ 4th Year · CGPA 8.36
 ├─ AI / ML · RAG · MCP · GenAI
-├─ Full Stack · React · Node.js · Python
+├─ Full Stack · React · Next.js · Node.js · Python
 ├─ IoT / Embedded · ESP32 · Arduino · Sensors
 └─ Build → Break → Learn → Ship
 ```
 
-I build end-to-end systems where **AI, software and hardware meet** — from intelligent web products and RAG-oriented applications to connected ESP32 prototypes and practical engineering projects.
+I build end-to-end systems where **AI, software and hardware meet** — from intelligent enterprise platforms and RAG-oriented web applications to connected ESP32 prototypes and practical engineering projects.
 
 ---
 
 # 🚀 Flagship Projects
 
-## 🤖 shahriyartaufik.in — Personal Portfolio + Custom AI
+<details open>
+<summary><b><a href="https://shahriyartaufik.in/">🤖 shahriyartaufik.in — Personal Portfolio + Custom AI with Context & Tone Memory</a></b> &nbsp;<code>React</code> <code>RAG</code> <code>MCP</code> <code>Memory</code> <code>Live ↗</code></summary>
+<br>
 
-My main personal product: a developer portfolio that includes a custom AI experience as part of the website itself.
+> **Live Application:** [shahriyartaufik.in](https://shahriyartaufik.in/) &nbsp;•&nbsp; **Focus:** Personalized AI · Context Continuity · RAG & Tool Execution
 
-### What makes the AI different
+My personal product and flagship developer portfolio featuring an integrated, custom conversational AI that goes far beyond generic chatbot templates.
 
-- 🧠 **Conversation context** — maintains the flow of an ongoing conversation so follow-up questions can reference previous turns.
-- 🔐 **Login-aware personalization** — authenticated users can have relevant conversational context associated with their account.
-- 🧩 **Context continuity** — responses can be shaped by earlier turns rather than treating every prompt as isolated.
-- 😏 **Sarcasm & irony** — can intentionally switch into a sarcastic or ironic conversational style.
-- 🔥 **Context-aware roasting** — when provoked or mistreated, it can respond with playful, situation-specific roasts instead of a fixed response.
-- 🎭 **Personality layer** — can move between helpful, professional, humorous, sarcastic and playful styles.
-- 📚 **RAG direction** — designed to support grounded, website-aware responses.
-- 🔌 **MCP direction** — exploring tool-connected AI workflows through Model Context Protocol.
+#### 🌟 Key Masterpieces & Standout Capabilities:
+- 🧠 **Dynamic Conversation Context**: Maintains multi-turn continuity across complex discussions without losing conversational thread.
+- 🔐 **Login-Aware User Memory**: Authenticated visitors have their preferences, identity, and past conversational context recalled automatically.
+- 🎭 **Situational Personality Engine**: Seamlessly pivots between professional engineering explanations, witty banter, and playful, context-aware roasts when provoked.
+- 📚 **Grounded RAG Pipeline**: Grounded on my actual project codebase, education history, and engineering blogs for hyper-accurate answers.
+- 🔌 **Model Context Protocol (MCP)**: Implements structured tool-use patterns to interact with live backend data and external services.
 
 ```text
                   shahriyartaufik.in
@@ -71,64 +71,187 @@ My main personal product: a developer portfolio that includes a custom AI experi
                            AI Response
 ```
 
-`AI` `LLM` `RAG` `MCP` `Authentication` `Conversation Memory` `Personalized AI` `Web`
+**Tech Stack:** `React` `JavaScript` `Node.js` `RAG` `MCP` `Vector Search` `Tailwind CSS`
 
-**Live:** [shahriyartaufik.in](https://shahriyartaufik.in/)
+<p align="right"><a href="https://shahriyartaufik.in/"><b>Visit Live Website ↗</b></a></p>
 
----
-
-## 🍎 FruitnVeg — AI Vision
-
-AI-powered fruit and vegetable recognition/classification, deployed through a **Hugging Face Space**.
-
-`Python` `AI/ML` `Computer Vision` `Hugging Face`
+</details>
 
 ---
 
-## 💧 AquaHarvest — Water From Air
+<details open>
+<summary><b><a href="https://loop-ten-vert.vercel.app/login">🔄 Project LOOP — AI Customer-Feedback Intelligence Platform</a></b> &nbsp;<code>Next.js 14</code> <code>TypeScript</code> <code>Prisma</code> <code>RAG</code> <code>Live ↗</code></summary>
+<br>
 
-An atmospheric-water harvesting prototype built around thermoelectric cooling.
+> **Live Application:** [loop-ten-vert.vercel.app](https://loop-ten-vert.vercel.app/login) &nbsp;•&nbsp; **Repository:** [DeathSHMASHER/LOOP](https://github.com/DeathSHMASHER/LOOP) &nbsp;•&nbsp; **Focus:** Enterprise B2B SaaS · Multi-Tenant AI · VoC Analytics
 
-**Core hardware:** `Peltier TEC1-12706` `DHT11` `Arduino` `CPU Heatsink` `Fan`
+Project LOOP is an enterprise-grade multi-tenant intelligence platform engineered to solve customer-feedback fragmentation for modern product, engineering, and support teams. It ingests scattered feedback across support tickets, app reviews, survey responses, and sales notes, automatically extracting actionable sentiment, clustering emergent themes, and enabling natural-language grounded RAG search.
+
+#### 🌟 Key Masterpieces & Standout Capabilities:
+- 🛡️ **Enterprise Multi-Tenant Isolation & Triple-Tier RBAC**: Complete workspace isolation enforced at database query level (`workspaceId` scoping via Prisma ORM) with strict role-based access control:
+  - 🛡️ **Admin**: Organization management, member role assignments, ingestion pipeline setup.
+  - ⚡ **Analyst**: Manual & batch CSV ingestion, inline status triage, AI re-classification, and Voice-of-Customer (VoC) report generation.
+  - 👁️ **Viewer**: Read-only access to interactive telemetry, feedback inbox, trend graphs, and VoC digests.
+- 🤖 **Structured Dual-Engine AI Intelligence**:
+  - **Auto-Classification (AI1)**: Sub-second sentiment extraction (`POSITIVE`, `NEUTRAL`, `NEGATIVE`), continuous polarity scoring (`-1.0` to `+1.0`), granular theme taxonomy, and feature area mapping validated with strict Zod schemas.
+  - **Theme Clustering & Anomaly Spike Detection (AI2)**: Unsupervised clustering groups scattered feedback into trending product themes, identifying emerging software bugs and sudden surges in customer friction before they impact retention.
+- 💬 **Grounded RAG ("Ask LOOP AI")**: Empowers product managers to query the workspace's entire feedback lake in plain English (*"Why are users complaining about the mobile checkout flow?"*) with citation-backed, actionable insights.
+- 📥 **High-Throughput Ingestion & Connector Simulation**: Built-in single-ticket manual submission, batch CSV parsing via `papaparse` with row-level error validation, and simulated webhook feeds for Zendesk, App Store, and Twitter.
+- 🔐 **Secure Authentication**: Credentials authentication alongside seamless Google OAuth via NextAuth.
+
+```text
+                   User Feedback Streams
+        (Zendesk · App Store · CSV · Twitter · Support)
+                             │
+                             ▼
+                 Next.js 14 Ingestion Engine
+                             │
+             ┌───────────────┴───────────────┐
+             ▼                               ▼
+    AI Auto-Classification          Theme Clustering & Spikes
+    • Sentiment (-1.0 to +1.0)      • Dynamic Pain Point Groups
+    • Feature Area & Taxonomy       • Anomaly Spike Detector
+    • Structured Zod Validation     • Churn-Risk Flagging
+             │                               │
+             └───────────────┬───────────────┘
+                             ▼
+              Prisma ORM + Tenant-Isolated DB
+                             │
+             ┌───────────────┼───────────────┐
+             ▼               ▼               ▼
+      VoC Executive    Interactive Triage   Grounded RAG
+      Summary Reports   (New/Review/Action) ("Ask LOOP AI")
+```
+
+**Tech Stack:** `Next.js 14 (App Router)` `TypeScript 5` `Prisma ORM` `PostgreSQL` `Tailwind CSS` `Zod` `NextAuth / Google OAuth` `RAG Engine` `Papaparse`
+
+<p align="right"><a href="https://loop-ten-vert.vercel.app/login"><b>Launch Project LOOP ↗</b></a></p>
+
+</details>
+
+---
+
+<details open>
+<summary><b><a href="https://jigyassa.netlify.app/">🎓 Jigyasa Science Academy — Full-Stack Coaching & Dual-Portal Ecosystem</a></b> &nbsp;<code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>Netlify</code> <code>Live ↗</code></summary>
+<br>
+
+> **Live Application:** [jigyassa.netlify.app](https://jigyassa.netlify.app/) &nbsp;•&nbsp; **Student Portal:** [Portal Login](https://jigyassa.netlify.app/student-portal) &nbsp;•&nbsp; **Admissions:** [Apply Online](https://jigyassa.netlify.app/admission) &nbsp;•&nbsp; **Repository:** [DeathSHMASHER/Coching](https://github.com/DeathSHMASHER/Coching)
+
+A full-stack, production-grade educational management platform and coaching portal custom-engineered for **Jigyasa Science Academy** (founded and taught by Shahriyar Taufik), serving Class 5–12 CBSE, ICSE, and West Bengal Board students across Physics, Mathematics, Science, and Python Coding.
+
+#### 🌟 Key Masterpieces & Standout Capabilities:
+- 🏛️ **Director Desk & Administrative Control Hub (`/admin-portal.html`)**: Centralized command center for academy operations featuring live telemetry on total admissions, batch capacities, attendance averages, student record management (CRUD), course enrollment verification, and direct student query resolution.
+- 🎓 **Personalized Student Portal (`/student-portal.html`)**: Enrolled students access an individual dashboard tracking attendance rates, test performance progression curves, digital notice board announcements, fee payment verification, and an interactive 24/7 doubt submission desk.
+- 📝 **Dynamic Admissions Engine (`/admission.html`)**: Multi-step application pipeline with real-time validation, board selection (CBSE / ICSE / WBBSE / WBCHSE), course specialization (Foundation, Board & Competitive Physics/Maths, Python Coding for Beginners), and automated database ingestion.
+- ⭐ **Dynamic Feedback & Live Community Index**: Real-time review aggregation displaying verified student and parent feedback, curriculum ratings, and performance highlights.
+- ⚡ **High-Performance Edge Architecture**: Deployed with Netlify Serverless Functions (`functions/api.js`) for zero-cold-start edge delivery, an Express backend, and MongoDB Atlas database with responsive custom UI and WhatsApp Business API connectivity.
+
+```text
+                       Jigyasa Web Ecosystem
+                      (jigyassa.netlify.app)
+                                 │
+         ┌───────────────────────┼───────────────────────┐
+         ▼                       ▼                       ▼
+    Public Portal          Student Portal          Director Desk
+   • Course Catalog       • Attendance Track      • Student CRUD
+   • Online Admissions    • Performance Graphs    • Batch Scheduling
+   • Dynamic Reviews      • 24/7 Doubt Desk       • Admissions Queue
+   • WhatsApp Inquiries   • Notice Board Tracker  • Query Resolution
+         │                       │                       │
+         └───────────────────────┼───────────────────────┘
+                                 ▼
+                     Netlify Serverless Edge
+                   & Node.js Express REST API
+                                 │
+                                 ▼
+                     MongoDB Atlas Cloud DB
+```
+
+**Tech Stack:** `JavaScript (ES6+)` `Node.js` `Express` `MongoDB Atlas` `Netlify Serverless Functions` `REST API` `HTML5 / CSS3`
+
+<p align="right"><a href="https://jigyassa.netlify.app/"><b>Visit Jigyasa Science Academy ↗</b></a></p>
+
+</details>
+
+---
+
+<details open>
+<summary><b><a href="https://github.com/DeathSHMASHER/Fruit-and-veg-">🍎 FruitnVeg — Dual-Engine AI Vision (YOLOv8 + ViT)</a></b> &nbsp;<code>Python</code> <code>PyTorch</code> <code>YOLOv8</code> <code>ViT</code> <code>Hugging Face</code></summary>
+<br>
+
+> **Repository:** [DeathSHMASHER/Fruit-and-veg-](https://github.com/DeathSHMASHER/Fruit-and-veg-) &nbsp;•&nbsp; **Deployment:** Hugging Face Space &nbsp;•&nbsp; **Focus:** Dual-Model Computer Vision
+
+An AI-powered computer vision pipeline running two state-of-the-art vision models in parallel for real-time produce recognition, localization, and classification.
+
+#### 🌟 Key Masterpieces:
+- 🎯 **Parallel Dual-Model Inference Pipeline**:
+  - **YOLOv8 Object Detection**: Swiftly draws bounding boxes and localizes produce classes (apple, banana, orange, broccoli, carrot) in the scene.
+  - **Hugging Face Vision Transformer (ViT)**: Fine-tuned classifier covering 36 distinct produce classes (including mango, kiwi, eggplant, spinach) running simultaneously on the full frame and cropped regions for fine-grained classification.
+- ⚡ **Interactive Web Interface**: Streamlit / Gradio powered deployment on Hugging Face Spaces for real-time image upload and inference visualization.
+
+**Tech Stack:** `Python` `PyTorch` `YOLOv8` `Vision Transformer (ViT)` `Hugging Face` `OpenCV`
+
+</details>
+
+---
+
+<details open>
+<summary><b><a href="https://github.com/DeathSHMASHER">💧 AquaHarvest — Atmospheric Water Harvesting Prototype</a></b> &nbsp;<code>ESP32</code> <code>Arduino</code> <code>Thermoelectric</code> <code>IoT</code></summary>
+<br>
+
+> **Focus:** Hardware Prototyping · Thermoelectric Cooling · Embedded Control Loops
+
+An atmospheric-water harvesting prototype designed to extract potable water directly from ambient humid air using thermoelectric cooling mechanisms.
+
+#### 🌟 Key Masterpieces:
+- ❄️ **Thermoelectric Condensation Core**: Built around high-performance Peltier TEC1-12706 cooling elements coupled with CPU heat sink arrays and cooling fans.
+- 🌡️ **Closed-Loop Microcontroller Automation**: Integrates DHT11 relative humidity and temperature sensors monitored by Arduino / ESP32 to calculate the dew point dynamically and regulate Peltier power cycles for maximum condensation efficiency.
 
 ```text
 Humid Air
    ↓
-Peltier Cooling
+Peltier Cooling (TEC1-12706)
    ↓
-Condensation
+Condensation Chamber
    ↓
-Water Collection
+Potable Water Collection
    ↑
-DHT11 → Arduino Control
+DHT11 Sensor → Arduino / ESP32 Feedback Loop
 ```
+
+**Tech Stack:** `Peltier TEC1-12706` `DHT11` `Arduino` `ESP32` `C/C++` `Embedded Hardware`
+
+</details>
 
 ---
 
 # 🧩 Additional Projects
 
 <details>
-<summary><b>🌐 ATOM — KIIT Fest IoT Website</b></summary>
+<summary><b><a href="https://github.com/DeathSHMASHER/ATOM">🌐 ATOM — KIIT Fest IoT Website</a></b> &nbsp;<code>React</code> <code>Vite</code> <code>JavaScript</code> <code>CSS</code></summary>
+<br>
 
-Front-end contribution for the KIIT Fest IoT Bakeoff website, built around the **ATOM** identity with search, responsive UI, branding and animated interactions.
+Front-end web experience developed for the KIIT Fest IoT Bakeoff website, built around the **ATOM** branding identity with responsive layout, dynamic search, and custom CSS animations.
 
 `React` `Vite` `JavaScript` `CSS` `Netlify`
 
 </details>
 
 <details>
-<summary><b>🏆 Smart Flow — Smart India Hackathon</b></summary>
+<summary><b><a href="https://github.com/DeathSHMASHER/AI-Generated-TimeTable-">🏆 Smart Flow — Smart India Hackathon</a></b> &nbsp;<code>AI</code> <code>Scheduling</code> <code>Optimization</code> <code>Python</code></summary>
+<br>
 
-Group-led project for an AI-based timetable generation system aligned with the **NEP 2020** framework.
+Group-led project for an intelligent academic timetable generator and academic advisor aligned with the **NEP 2020** framework, using optimization algorithms to balance faculty allocations, room capacities, and student course electives.
 
-`AI` `Scheduling` `Optimization` `Python`
+`AI` `Scheduling` `Constraint Optimization` `Python` `JavaScript`
 
 </details>
 
 <details>
-<summary><b>🕵️ Super Skip — Skip Tracing Platform</b></summary>
+<summary><b><a href="https://github.com/DeathSHMASHER">🕵️ Super Skip — Skip Tracing Platform</a></b> &nbsp;<code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>Python</code></summary>
+<br>
 
-Full-stack skip-tracing / information-retrieval platform using a Node.js backend, MongoDB and a Python BeautifulSoup scraping component.
+Full-stack information-retrieval and skip-tracing platform pairing a high-throughput Node.js/Express API with Python BeautifulSoup data scrapers and MongoDB storage.
 
 ```text
 Frontend → Node.js / Express → MongoDB
@@ -140,9 +263,10 @@ Frontend → Node.js / Express → MongoDB
 </details>
 
 <details>
-<summary><b>🎮 Games + ESP32 Lab</b></summary>
+<summary><b><a href="https://github.com/DeathSHMASHER/2-player-games">🎮 Games + ESP32 Lab</a></b> &nbsp;<code>ESP32</code> <code>TypeScript</code> <code>Arduino</code> <code>Sensors</code></summary>
+<br>
 
-Game-development experiments plus embedded work with:
+Turn-based strategy and browser game experiments (`2-player-games` Element Battle in TypeScript) alongside physical computing lab work with:
 
 `ESP32` `Arduino` `DHT11` `BH1750` `MPU-6050` `HC-SR04` `OLED SSD1306` `Servo` `LEDs` `Buzzers`
 
@@ -153,16 +277,16 @@ Game-development experiments plus embedded work with:
 # 🛠️ Tech Arsenal
 
 ### AI / Data
-`Python` `PyTorch` `TensorFlow` `scikit-learn` `Pandas` `NumPy` `RAG` `MCP` `Signal Processing`
+`Python` `PyTorch` `TensorFlow` `scikit-learn` `Pandas` `NumPy` `RAG` `MCP` `YOLOv8` `Vision Transformers` `Signal Processing`
 
 ### Web
-`React` `Vite` `TypeScript` `JavaScript` `Node.js` `Express` `Flask` `Django` `Tailwind`
+`React` `Next.js 14` `TypeScript` `JavaScript` `Node.js` `Express` `Flask` `Django` `Tailwind CSS` `Prisma ORM`
 
 ### Databases / Cloud / Tools
-`MongoDB` `MySQL` `PostgreSQL` `Git` `GitHub` `Docker` `AWS` `GCP` `Linux` `Postman` `VS Code`
+`MongoDB Atlas` `PostgreSQL` `MySQL` `Git` `GitHub Actions` `Docker` `AWS` `GCP` `Netlify` `Vercel` `Linux` `Postman` `VS Code`
 
-### Hardware
-`ESP32` `Arduino` `Raspberry Pi` `Sensors` `Embedded Systems`
+### Hardware & IoT
+`ESP32` `Arduino` `Raspberry Pi` `Peltier TEC1-12706` `DHT11` `MPU-6050` `Sensors` `Embedded Systems`
 
 ---
 
@@ -174,7 +298,7 @@ Game-development experiments plus embedded work with:
 
 </div>
 
-> This dashboard is generated from your GitHub contribution calendar by GitHub Actions. The same workflow refreshes the contribution snake.
+> This dashboard is dynamically generated from your GitHub contribution calendar by GitHub Actions. The same workflow refreshes the contribution snake.
 
 ---
 
@@ -190,7 +314,7 @@ Game-development experiments plus embedded work with:
 
 </div>
 
-> Refresh: every 15 minutes + repository pushes + manual workflow runs. GitHub may delay scheduled jobs or contribution-calendar updates.
+> Refresh: every 15 minutes + repository pushes + manual workflow runs.
 
 ---
 
@@ -200,10 +324,10 @@ Game-development experiments plus embedded work with:
 **4th Year · CGPA 8.36**
 
 **AWS Academy — GenAI Virtual Internship**  
-Completed a 10-week virtual internship focused on Generative AI.
+Completed a 10-week virtual internship focused on Generative AI, foundational models, and cloud-backed AI pipelines.
 
 **AICTE / EduSkills — AI/ML Internship**  
-Completed a 10-week virtual AI/ML internship.
+Completed a 10-week virtual AI/ML internship covering machine learning models, statistical evaluation, and data pipelines.
 
 ---
 
@@ -215,11 +339,11 @@ Completed a 10-week virtual AI/ML internship.
 
 # 🌍 Beyond the Code
 
-🎮 Game development  
-🧠 AI model experimentation  
-🔌 IoT and electronics  
-🌐 Web products  
-🧩 Hardware + software prototypes
+🎮 Game development & physics simulations  
+🧠 AI model experimentation, RAG & MCP tool integration  
+🔌 IoT, sensor integration & microcontroller prototyping  
+🌐 Full-stack SaaS & enterprise web products  
+🧩 Connecting hardware signals to modern web applications
 
 ---
 
