@@ -1,62 +1,411 @@
-<h1 align="center">Hi there, I'm Shahriyar Taufik 👋</h1>
-<h3 align="center">Web Developer | IoT Enthusiast | ECSE Student @ KIIT'27</h3>
-<p align="center">
-I am a B.Tech student in Electronics and Computer Science Engineering (ECSE) with a strong passion for bridging the gap between hardware and software. I love working on Artificial Intelligence, Embedded Systems, and building practical solutions.
-</p> 
----
-🚀 About Me
-
-- 🎓 Currently pursuing my B.Tech in ECSE at **KIIT University**  with a CGPA of 8.36.
-- 🧠 Deeply interested in **AI & Machine Learning**, **Computer Architecture**, **Design and Analysis of Algorithms (DAA)** and **Ethical Hacking**.
-- 🔌 Building hands-on hardware and embedded systems projects, particularly utilizing the **ESP32 microcontroller** for IoT applications.
-- 💻 Exploring Signal Processing for EEG and ECG analysis.
-- 🌐 Check out my personal portfolio: [shahriyartaufik.in](https://shahriyartaufik.in)
- 
-### 🛠️ Tech Stack & Tools
-
-**Languages & Web Dev:** ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) 
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) 
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
-
-**Hardware, AI & Concepts:** ![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat&logo=espressif&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![IoT](https://img.shields.io/badge/IoT-00979D?style=flat&logo=arduino&logoColor=white)
-
-### 🔭 Featured Projects & Experience
-
-- 🗄️ **Neuro-Scribe:** Developing an AI-based system for brain-to-text conversion utilizing EEG signal processing and feature extraction.
-- 🏆 **Smart India Hackathon (SIH):** Group Leader for team *Smart Flow*, focusing on an AI-Based Timetable Generation System aligned with the NEP 2020 framework.
-- 💼 **AWS Academy GEN-AI Virtual Internship:** Completed a 10-week specialized internship focusing on Generative AI.
-- 💼 **AICTE & EduSkills AI-ML Internship:** Completed a 10-week virtual internship supported by Google for Developers. 
- 
-### 📫 Connect with Me
- 
-<p align="left">
-<a href="https://shahriyartaufik.in/" target="blank"><img align="center" src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" height="30" /></a>
-<a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="30" /></a>
-</p>
-
----
 <div align="center">
 
-| **GitHub Profile Stats** | **Most Used Languages** |
-| :---: | :---: |
-| <a href="https://github.com/SHAHRIYARTAUFIK"><img src="https://github-readme-stats-inky-nine-83.vercel.app/api?username=DeathSHMASHER&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" width="400" /></a> | <a href="https://github.com/DeathSHMASHER"><img src="https://github-readme-stats-inky-nine-83.vercel.app/api/top-langs/?username=DeathSHMASHER&layout=compact&theme=tokyonight&hide=jupyter%20notebook" width="305" /></a> |
+👋 Hi, I'm Shahriyar Taufik
 
-<br />
+AI/ML • Full Stack • IoT • Embedded Systems • B.Tech ECSE @ KIIT
 
-[![Shahriyar's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DeathSHMASHER&theme=tokyonight&hide_border=true)](https://github.com/SHAHRIYARTAUFIK)
+<p>
+  <a href="https://shahriyartaufik.in/"><img src="https://img.shields.io/badge/Portfolio-shahriyartaufik.in-111827?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+  <a href="https://github.com/DeathSHMASHER"><img src="https://img.shields.io/badge/GitHub-DeathSHMASHER-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/shahriyar-taufik-19662b287/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <img src="https://komarev.com/ghpvc/?username=DeathSHMASHER&style=for-the-badge&color=0e75b6" alt="Profile views"/>
+</p>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=19&duration=2600&pause=900&center=true&vCenter=true&width=820&lines=Building+at+the+intersection+of+AI%2C+Web+and+Hardware.;Turning+ideas+into+end-to-end%2C+working+systems.;RAG+%7C+GenAI+%7C+Full+Stack+%7C+ESP32+%7C+Signal+Processing" alt="Typing animation"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=header&animation=fadeIn" width="100%"/>
 
 </div>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://www.hackerrank.com/profile/shahriyartaufik" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.sketch.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sketchapp/sketchapp-icon.svg" alt="sketch" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+🧑‍💻 whoami
 
-<details>	
- <summary><b>GSSOC(24) Badges 🪶</b></summary><br>
-<div style='display:flex; align-items:center; gap: 10px;' align='center'><a href="https://gssoc.girlscript.tech/leaderboard">
-<img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/Postman%20White.png" width="100px" height="100px" />
+Shahriyar Taufik
+│
+├── 🎓  B.Tech — Electronics & Computer Science Engineering @ KIIT University
+├── 📚  4th Year | CGPA: 8.36
+│
+├── 🧠  AI/ML
+│   ├── Machine Learning
+│   ├── Deep Learning
+│   ├── Generative AI
+│   ├── RAG
+│   └── EEG / Signal Processing
+│
+├── 🌐  Full Stack
+│   ├── React / Vite / TypeScript
+│   ├── Node.js / Express
+│   ├── Flask / Django
+│   └── MySQL / MongoDB
+│
+├── 🔌  IoT / Embedded
+│   ├── ESP32
+│   ├── Arduino
+│   ├── Sensor Integration
+│   └── Hardware + Software Systems
+│
+└── ⚡  Philosophy: Build → Break → Learn → Ship
+
+I like building systems that connect software, intelligence and the physical world — from AI applications and web platforms to ESP32-powered prototypes and signal-processing projects.
+
+🚀 What I Build
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+🧠 AI / ML
+
+Machine Learning
+Deep Learning
+Generative AI
+RAG Applications
+Signal Processing
+Computer Vision
+
+</td>
+<td align="center" width="33%">
+
+🌐 Full Stack
+
+React + Vite
+Node + Express
+Python Backends
+REST APIs
+MongoDB / MySQL
+Deployment
+
+</td>
+<td align="center" width="33%">
+
+🔌 IoT / Embedded
+
+ESP32
+Arduino
+Sensors
+Embedded Control
+IoT Automation
+Hardware Prototyping
+
+</td>
+</tr>
+</table>
+
+⭐ Top Projects
+
+My portfolio is built around three layers: intelligent software, polished web experiences, and connected hardware.
+
+🤖 shahriyartaufik.in — Personal Portfolio + Custom AI
+
+My main personal product — a developer portfolio with an AI experience built directly into the website.
+
+The site is designed to be more than a portfolio: visitors can explore my work and interact with a custom assistant whose behavior is configured around the website experience.
+
+AI Experience
+
+🧠 Conversation-aware context — keeps track of the ongoing conversation so follow-up questions can remain coherent.
+
+🔐 Login-aware personalization — for authenticated users, relevant conversation context can be associated with their account for a more personalized experience.
+
+🧩 Context continuity — earlier turns can influence later responses instead of every prompt being treated as isolated.
+
+😏 Sarcasm + irony — the assistant can deliberately respond with a sarcastic or ironic tone when appropriate.
+
+🔥 Context-aware roasting — when provoked or mistreated, it can produce playful, situation-specific roasts rather than repeating a fixed insult.
+
+🎭 Dynamic personality — can move between helpful, professional, humorous, sarcastic and playful conversational styles.
+
+🧠 RAG / knowledge integration — designed as a foundation for grounded, website-aware AI interactions.
+
+🔌 MCP-ready architecture — exploring tool-connected AI workflows through Model Context Protocol.
+
+Conceptual Architecture
+
+                        ┌──────────────────────┐
+                        │   shahriyartaufik.in  │
+                        └──────────┬───────────┘
+                                   │
+             ┌─────────────────────┼─────────────────────┐
+             ▼                     ▼                     ▼
+        Portfolio UI         Authentication         AI Chat UI
+                                   │                     │
+                                   └──────────┬──────────┘
+                                              ▼
+                                  ┌─────────────────────┐
+                                  │ Conversation Context │
+                                  ├─────────────────────┤
+                                  │ User-aware Memory   │
+                                  │ Personality Layer   │
+                                  │ RAG / Knowledge     │
+                                  │ MCP / Tools         │
+                                  └──────────┬──────────┘
+                                             ▼
+                                      AI Response
+
+Core idea: build an AI assistant that can maintain conversational continuity, personalize interactions for authenticated users, and express a distinctive personality instead of behaving like a generic Q&A widget.
+
+AI LLM RAG MCP Conversation Memory Authentication Personalized AI Web
+
+🍎 FruitnVeg — AI Vision Project
+
+An AI-powered fruit-and-vegetable recognition/classification project deployed through a Hugging Face Space.
+
+The project reflects my interest in taking machine-learning models beyond notebooks and putting them into an accessible interactive application.
+
+Python AI/ML Computer Vision Hugging Face
+
+💧 AquaHarvest — Harvesting Drinking Water From Air
+
+A hardware prototype for atmospheric-water harvesting using thermoelectric cooling.
+
+The system uses a Peltier TEC1-12706, environmental sensing and embedded control to explore moisture condensation from humid air.
+
+Core hardware
+
+Peltier TEC1-12706 DHT11 Arduino CPU Heatsink Fan
+
+System flow
+
+Ambient Humid Air
+       ↓
+   Peltier Cooling
+       ↓
+ Moisture Condensation
+       ↓
+    Water Collection
+       ↑
+DHT11 → Arduino Control
+
+This project represents the hardware side of my profile: taking a physical engineering idea and connecting it to sensors, control logic and software.
+
+🧩 Other Builds
+
+These projects are intentionally kept lower in the profile so the main emphasis stays on my AI product work, FruitnVeg and hardware engineering.
+
+🌐 ATOM — KIIT Fest IoT Website
+
+Front-end contribution for the KIIT Fest IoT Bakeoff website.
+
+Built around the ATOM identity with branding, search, responsive UI and animated web interactions.
+
+React Vite JavaScript CSS Netlify
+
+🏆 Smart Flow — Smart India Hackathon
+
+Group-led project focused on an AI-based timetable generation system aligned with the NEP 2020 framework.
+
+AI Scheduling Optimization Python
+
+🕵️ Super Skip — Skip Tracing Platform
+
+A full-stack skip-tracing / information-retrieval platform built with a Node.js backend, MongoDB and a Python BeautifulSoup scraping component.
+
+Frontend
+   ↓
+Node.js / Express
+   ↓
+MongoDB
+   ↓
+Python + BeautifulSoup
+
+Node.js Express MongoDB Python BeautifulSoup
+
+🎮 Game Development
+
+Smaller projects used to experiment with programming, interaction and gameplay logic:
+
+2-player-games single-player-mini-games
+
+🔌 ESP32 / IoT Experiments
+
+Hands-on experiments with:
+
+ESP32 Arduino DHT11 BH1750 MPU-6050 HC-SR04 OLED SSD1306 Servo LEDs Buzzers
+
+🧰 Tech Arsenal
+
+Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=c,cpp,python,java,javascript,typescript" />
+</p>
+
+Frontend / Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,react,vite,tailwind,nodejs,express,flask,django" />
+</p>
+
+AI / Data
+
+<p>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" />
+</p>
+
+Pandas NumPy Seaborn Jupyter Signal Processing RAG MCP RAG MCP
+
+Databases / APIs
+
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,postman" />
+</p>
+
+Cloud / Dev Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,linux,docker,aws,gcp,vscode" />
+</p>
+
+Hardware / Design
+
+<p>
+<img src="https://skillicons.dev/icons?i=arduino,raspberrypi,figma,blender" />
+</p>
+
+🤖 AI / GenAI Direction
+
+focus:
+  - Generative AI
+  - Retrieval-Augmented Generation (RAG)
+  - AI application development
+  - Model experimentation
+  - Signal processing
+  - Computer Vision
+  - AI + Full Stack integration
+
+goal:
+  - Build useful AI systems
+  - Connect models to real applications
+  - Move from prototypes toward production-oriented systems
+
+💼 Experience & Learning
+
+☁️ AWS Academy — GenAI Virtual Internship
+
+Completed a 10-week virtual internship focused on Generative AI.
+
+Generative AI AWS AI Applications
+
+🤖 AICTE / EduSkills — AI/ML Internship
+
+Completed a 10-week virtual AI/ML internship through the EduSkills ecosystem, with Google for Developers support referenced in my experience.
+
+Artificial Intelligence Machine Learning Python
+
+🏅 Certifications & Coding
+
+🟢 React Certification — HackerRank
+
+⭐ 5 Stars in C — HackerRank
+
+☁️ AWS Academy Certification
+
+🪶 GSSOC'24 / Postman Challenge badge
+
+🔧 Multiple hands-on AI, web and IoT projects
+
+📊 GitHub Dashboard
+
+<div align="center">
+
+<a href="https://github.com/DeathSHMASHER">
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=DeathSHMASHER&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&include_all_commits=true&count_private=true" />
+</a>
+
+<a href="https://github.com/DeathSHMASHER">
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeathSHMASHER&layout=compact&hide_border=true&theme=tokyonight&langs_count=8&hide=Jupyter%20Notebook" />
+</a>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=DeathSHMASHER&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=DeathSHMASHER&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub trophies"/>
+
 </div>
+
+📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DeathSHMASHER&theme=tokyo-night&hide_border=true&area=true" width="96%" />
+
+</div>
+
+🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" />
+
+</div>
+
+Note: The snake image requires the Platane/snk GitHub Action to be enabled in the profile repository.
+
+🖥️ Developer Console
+
+<div align="center">
+
+<img src="./assets/dev-console.gif" alt="Animated Shahriyar developer console" width="100%" />
+
+</div>
+
+<details>
+<summary><b>Console telemetry</b></summary>
+
+role: AI / Full Stack / IoT
+education: KIIT University — B.Tech ECSE
+cgpa: 8.36
+current: 4th Year
+building:
+  - AI-powered web applications
+  - RAG / GenAI experiences
+  - ESP32 + IoT systems
+exploring:
+  - MCP
+  - AI Agents
+  - production-oriented AI systems
+status: ONLINE
+
 </details>
+
+🌍 Beyond the Code
+
+I enjoy:
+
+🎮 Game development
+
+🧠 Training and experimenting with AI models
+
+🔌 IoT and electronics
+
+🌐 Building websites and digital products
+
+🧩 Turning academic ideas into working prototypes
+
+📫 Connect With Me
+
+<div align="center">
+
+<a href="https://shahriyartaufik.in/">
+<img src="https://img.shields.io/badge/🌐%20Portfolio-shahriyartaufik.in-000000?style=for-the-badge" />
+</a>
+
+<a href="https://github.com/DeathSHMASHER">
+<img src="https://img.shields.io/badge/💻%20GitHub-DeathSHMASHER-181717?style=for-the-badge&logo=github" />
+</a>
+
+<a href="https://www.linkedin.com/in/shahriyar-taufik-19662b287/">
+<img src="https://img.shields.io/badge/💼%20LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
+</a>
+
+</div>
+
+<div align="center">
+
+Build something. Learn something. Ship something.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=fadeIn" width="100%"/>
+
+</div>
