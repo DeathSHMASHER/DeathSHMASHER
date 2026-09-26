@@ -139,7 +139,7 @@ Project LOOP is an enterprise-grade multi-tenant intelligence platform engineere
 
 ---
 
-<details open>
+<details close>
 <summary><b><a href="https://jigyassa.netlify.app/">🎓 Jigyasa Science Academy — Full-Stack Coaching & Dual-Portal Ecosystem</a></b> &nbsp;<code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>Netlify</code> <code>Live ↗</code></summary>
 <br>
 
