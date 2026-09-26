@@ -12,6 +12,14 @@
 <a href="https://github.com/DeathSHMASHER"><b>💻 GitHub</b></a>
 </p>
 
+<p>
+  <img src="https://img.shields.io/badge/GSoC_'24_Batch-Postman_API_Challenge-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="GSoC '24 Batch - Postman Challenge" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/AWS_Academy-GenAI_Intern-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS Academy GenAI" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/AICTE-AI%2FML_Intern-0052CC?style=for-the-badge&logo=google&logoColor=white" alt="AICTE AI/ML" />
+</p>
+
 <img src="./assets/dev-console.gif" alt="Animated developer console" width="100%">
 
 </div>
@@ -22,8 +30,8 @@
 
 ```text
 Shahriyar Taufik
-├─ B.Tech ECSE @ KIIT University
-├─ 4th Year · CGPA 8.36
+├─ B.Tech ECSE @ KIIT University (4th Year · CGPA 8.36)
+├─ 🚀 GSoC '24 Batch · Postman API Challenge
 ├─ AI / ML · RAG · MCP · GenAI
 ├─ Full Stack · React · Next.js · Node.js · Python
 ├─ IoT / Embedded · ESP32 · Arduino · Sensors
@@ -320,10 +328,10 @@ Turn-based strategy and browser game experiments (`2-player-games` Element Battl
 
 ---
 
-# 🎓 Education & Experience
+# 🎓 Experience & Education
 
-**KIIT University** — B.Tech, Electronics & Computer Science Engineering  
-**4th Year · CGPA 8.36**
+**Google Summer of Code (GSoC) '24 Batch — Postman Challenge**  
+Selected contributor in the GSoC '24 cohort for the Postman Challenge. Worked extensively with API architecture, Postman collection automation, environment scripting, testing pipelines, and webhook workflows.
 
 **AWS Academy — GenAI Virtual Internship**  
 Completed a 10-week virtual internship focused on Generative AI, foundational models, and cloud-backed AI pipelines.
@@ -331,11 +339,14 @@ Completed a 10-week virtual internship focused on Generative AI, foundational mo
 **AICTE / EduSkills — AI/ML Internship**  
 Completed a 10-week virtual AI/ML internship covering machine learning models, statistical evaluation, and data pipelines.
 
+**KIIT University** — B.Tech, Electronics & Computer Science Engineering  
+**4th Year · CGPA 8.36**
+
 ---
 
-# 🏅 Certifications & Coding
+# 🏅 Certifications & Badges
 
-`React — HackerRank` · `5★ C — HackerRank` · `AWS Academy` · `GSSOC'24 / Postman Challenge`
+`🚀 GSoC '24 Batch (Postman Challenge)` · `🟠 Postman API Specialist` · `⚛️ React — HackerRank` · `⭐ 5★ C — HackerRank` · `☁️ AWS Academy GenAI` · `🤖 AICTE AI/ML`
 
 ---
 
