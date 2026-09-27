@@ -183,7 +183,7 @@ A full-stack, production-grade educational management platform and coaching port
 
 ---
 
-<details close>
+<details open>
 <summary><b><a href="https://huggingface.co/spaces/NEwBEE67/FruitnVeg">🍎 FruitnVeg — Dual-Engine AI Vision (YOLOv8 + ViT)</a></b> &nbsp;<code>Python</code> <code>PyTorch</code> <code>YOLOv8</code> <code>ViT</code> <code>Hugging Face</code> <code>Live ↗</code></summary>
 <br>
 
@@ -205,7 +205,7 @@ An AI-powered computer vision pipeline running two state-of-the-art vision model
 
 ---
 
-<details open>
+<details close>
 <summary><b><a href="https://github.com/DeathSHMASHER">💧 AquaHarvest — Atmospheric Water Harvesting Prototype</a></b> &nbsp;<code>ESP32</code> <code>Arduino</code> <code>Thermoelectric</code> <code>IoT</code></summary>
 <br>
 
