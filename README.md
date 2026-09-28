@@ -238,7 +238,7 @@ DHT11 Sensor → Arduino / ESP32 Feedback Loop
 # 🧩 Additional Projects
 
 <details>
-<summary><b><a href="https://github.com/DeathSHMASHER/ATOM">🌐 ATOM — KIIT Fest IoT Website</a></b> &nbsp;<code>React</code> <code>Vite</code> <code>JavaScript</code> <code>CSS</code></summary>
+<summary><b><a href="https://github.com/DeathSHMASHER/ATOM">🌐 KIIT Fest 25 — KIIT Fest IoT Website</a></b> &nbsp;<code>React</code> <code>Vite</code> <code>JavaScript</code> <code>CSS</code></summary>
 <br>
 
 Front-end web experience developed for the KIIT Fest IoT Bakeoff website, built around the **ATOM** branding identity with responsive layout, dynamic search, and custom CSS animations.
