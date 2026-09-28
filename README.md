@@ -184,22 +184,60 @@ A full-stack, production-grade educational management platform and coaching port
 ---
 
 <details open>
-<summary><b><a href="https://huggingface.co/spaces/NEwBEE67/FruitnVeg">🍎 FruitnVeg — Dual-Engine AI Vision (YOLOv8 + ViT)</a></b> &nbsp;<code>Python</code> <code>PyTorch</code> <code>YOLOv8</code> <code>ViT</code> <code>Hugging Face</code> <code>Live ↗</code></summary>
+<summary><b><a href="https://huggingface.co/spaces/NEwBEE67/FruitnVeg">🥝 ProduceVision Studio Pro — Enterprise Multi-Model Produce, Human & Pet Vision AI</a></b> &nbsp;<code>PyTorch</code> <code>YOLOv8m (63 Classes)</code> <code>ViT-36</code> <code>Gradio 6.8</code> <code>Mobile & Live View</code> <code>Live ↗</code></summary>
 <br>
 
-> **Live Application:** [huggingface.co/spaces/NEwBEE67/FruitnVeg](https://huggingface.co/spaces/NEwBEE67/FruitnVeg) &nbsp;•&nbsp; **Repository:** [DeathSHMASHER/Fruit-and-veg-](https://github.com/DeathSHMASHER/Fruit-and-veg-) &nbsp;•&nbsp; **Deployment:** Hugging Face Space &nbsp;•&nbsp; **Focus:** Dual-Model Computer Vision
+> **Live Application:** [huggingface.co/spaces/NEwBEE67/FruitnVeg](https://huggingface.co/spaces/NEwBEE67/FruitnVeg) &nbsp;•&nbsp; **Repository:** [DeathSHMASHER/Fruit-and-veg-](https://github.com/DeathSHMASHER/Fruit-and-veg-) &nbsp;•&nbsp; **Deployment:** Hugging Face Space (Gradio 6.8 SDK) &nbsp;•&nbsp; **Focus:** Dual-Engine Consensus · 63 Produce Classes · Human/Pet Awareness · Mobile Optimization
 
-An AI-powered computer vision pipeline running two state-of-the-art vision models in parallel for real-time produce recognition, localization, and classification.
+ProduceVision Studio Pro is an enterprise-grade computer vision and dietary intelligence platform engineered for high-precision produce localization, multi-entity scene understanding, and real-time nutritional analytics. Built to handle complex, occluded market baskets and kitchen countertops, it deploys a dual-engine consensus architecture that pairs high-capacity localization with crop-level transformer cross-verification to achieve near-zero false positive rates.
 
-#### 🌟 Key Masterpieces:
-- 🎯 **Parallel Dual-Model Inference Pipeline**:
-  - **YOLOv8 Object Detection**: Swiftly draws bounding boxes and localizes produce classes (apple, banana, orange, broccoli, carrot) in the scene.
-  - **Hugging Face Vision Transformer (ViT)**: Fine-tuned classifier covering 36 distinct produce classes (including mango, kiwi, eggplant, spinach) running simultaneously on the full frame and cropped regions for fine-grained classification.
-- ⚡ **Interactive Web Interface**: Streamlit / Gradio powered deployment on Hugging Face Spaces for real-time image upload and inference visualization.
+#### 🌟 Key Masterpieces & Standout Capabilities:
+- 🛡️ **Dual-Engine Consensus Architecture (Ultra-Low Error Rate)**:
+  - **63-Class Produce Specialist (YOLOv8m)**: Rapidly detects and localizes 63 distinct fruits, vegetables, squashes, and root crops (potatoes, pumpkins, avocados, zucchini, mushrooms, etc.) with bounding-box accuracy.
+  - **ViT-36 Crop Cross-Verification**: Automatically extracts candidate detections with 10% context padding and runs them through a fine-tuned Vision Transformer classifier to eliminate common visual ambiguities (e.g., potatoes never confused with pears).
+  - **Strict Fallback Confidence Gating**: Requires `≥ 65%` confidence before accepting full-frame classifications, rejecting non-produce backgrounds (desks, furniture, walls) rather than hallucinating produce items.
+  - **Non-Maximum Suppression (NMS)**: Configurable IoU overlap suppression eliminates duplicate bounding boxes on crowded produce clusters.
+- 👤 **Multi-Entity Recognition (Humans, Dogs & Cats)**:
+  - **Human & Face Detection (`[HUMAN]: Human`)**: Identifies human subjects and faces in the frame, tracking them in a separate count while strictly isolating dietary calculations to avoid nutritional contamination.
+  - **Pet Recognition (`[PET]: Dog / Cat`) & Toxicity Safety Advisories**: Detects household pets and automatically triggers an instant veterinary safety notice warning owners if toxic produce (grapes, onions, garlic, avocado) is spotted in the frame.
+- 📱 **Mobile-Optimized Viewfinder & Orientation Controls**:
+  - **🔄 90° Clockwise Camera Rotation & ↔️ Mirror/Flip**: One-tap camera controls instantly rectify sideways mobile photos and mirror selfie previews on iOS Safari and Android Chrome without quality degradation.
+  - **⚡ Live Auto-Detect**: Snapping a photo with the smartphone camera or webcam automatically triggers immediate detection and updates the visualization canvas without requiring extra clicks.
+  - **Zero-Tofu Clean Canvas**: High-DPI canvas annotations with ASCII-safe badges (`[FRUIT]: Apple 98%`, `[VEG]: Potato 95%`, `[HUMAN]: Human 96%`) that render crisp text across any mobile browser or Linux runner.
+- 🥗 **USDA FoodData Central Intelligence & Smart Chef**:
+  - **Nutritional Analytics (per 100g)**: Generates instant metrics for Calories, Carbohydrates, Dietary Fiber, Protein, Natural Sugars, and Key Micronutrients (Vitamin C, Potassium, Lycopene, Allicin, etc.).
+  - **Smart Pantry Chef**: Proposes tailored, healthy recipes derived from the ingredients spotted in the frame (e.g., *Crispy Herb-Roasted Potatoes, Stuffed Mediterranean Peppers, Arugula Pear Salad*).
+  - **Exportable Checklist**: Auto-generates clean produce inventories and grocery checklists formatted for instant copying.
 
-**Tech Stack:** `Python` `PyTorch` `YOLOv8` `Vision Transformer (ViT)` `Hugging Face` `OpenCV`
+```text
+                  User Photo / Mobile Camera Snapshot
+                                    │
+            ┌───────────────────────┴───────────────────────┐
+            ▼                                               ▼
+   COCO Multi-Entity YOLO                         63-Class Produce YOLO
+    (Humans, Dogs, Cats)                           (Fruits, Vegs, Roots)
+            │                                               │
+            │                                      [Padded Candidate Crops]
+            │                                               │
+            │                                               ▼
+            │                                     ViT-36 Cross-Validator
+            │                                               │
+            │                                      [Consensus Resolution]
+            ▼                                               ▼
+   ┌─────────────────────────────────────────────────────────────────┐
+   │            Non-Maximum Suppression (IoU Deduplication)          │
+   └────────────────────────────────┬────────────────────────────────┘
+                                    ▼
+       ┌────────────────────────────┼────────────────────────────┐
+       ▼                            ▼                            ▼
+ [Visual Map + Badges]     [USDA Nutrition Data]     [Smart Pantry Chef]
+ (ASCII-Safe Badges,       (Calories, Carbs,         (Recipe Suggestions,
+  Human & Pet Advisories)   Micronutrients per 100g)  Exportable Checklist)
+```
 
-<p align="right"><a href="https://huggingface.co/spaces/NEwBEE67/FruitnVeg"><b>Try FruitnVeg Live on Hugging Face ↗</b></a></p>
+**Tech Stack:** `Python` `PyTorch` `Ultralytics YOLOv8` `Vision Transformer (ViT)` `Hugging Face Hub` `Gradio 6.8` `OpenCV` `Pillow` `USDA FoodData API`
+
+<p align="right"><a href="https://github.com/DeathSHMASHER/Fruit-and-veg-"><b>View Source Code on GitHub ↗</b></a> &nbsp;•&nbsp; <a href="https://huggingface.co/spaces/NEwBEE67/FruitnVeg"><b>Try ProduceVision Pro Live on Hugging Face ↗</b></a></p>
 
 </details>
 
