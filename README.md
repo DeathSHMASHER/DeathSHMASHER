@@ -362,7 +362,7 @@ Turn-based strategy and browser game experiments (`2-player-games` Element Battl
 
 </div>
 
-> Refresh: every 15 minutes + repository pushes + manual workflow runs.
+
 
 ---
 
