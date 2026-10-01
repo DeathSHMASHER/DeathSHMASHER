@@ -208,7 +208,7 @@
     <rect class="eq eq-4" x="916" y="244" width="8" height="12" rx="3" fill="#10b981" opacity="0.85"/>
     <rect class="eq eq-0" x="936" y="244" width="8" height="12" rx="3" fill="#00f0ff" opacity="0.85"/>
     <!-- Status footer label -->
-    <text x="36" y="268" fill="#475569" class="mono" font-size="10" font-weight="600">&#x25CF; LIVE TELEMETRY BUS // REFRESHED: 2026-09-30 &#x2022; GITHUB ACTIONS PIPELINE</text>
+    <text x="36" y="268" fill="#475569" class="mono" font-size="10" font-weight="600">&#x25CF; LIVE TELEMETRY BUS // REFRESHED: 2026-10-01 &#x2022; GITHUB ACTIONS PIPELINE</text>
     <text x="944" y="268" text-anchor="end" fill="#00f0ff" class="mono" font-size="10" font-weight="600" opacity="0.8">RHYTHM: 100% HEALTHY</text>
   </g>
 </svg>
