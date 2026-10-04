@@ -139,11 +139,11 @@
     <path d="M0 14 Q0 0 14 0 L60 0" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
     
     <text x="20" y="30" fill="#94a3b8" class="mono" font-size="11" font-weight="700" letter-spacing="1">&#x1F525; CURRENT STREAK</text>
-    <text x="20" y="82" fill="#f59e0b" class="mono orange-num" font-size="44" font-weight="800">7</text>
+    <text x="20" y="82" fill="#f59e0b" class="mono orange-num" font-size="44" font-weight="800">0</text>
     <text x="20" y="108" fill="#64748b" class="mono" font-size="11">consecutive active days</text>
     
     <rect x="20" y="122" width="252" height="6" rx="3" fill="#152132"/>
-    <rect x="20" y="122" width="57" height="6" rx="3" fill="url(#orange-glow)"/>
+    <rect x="20" y="122" width="20" height="6" rx="3" fill="url(#orange-glow)"/>
   </g>
 
   <!-- Metric Card 3: LONGEST STREAK -->
@@ -208,7 +208,7 @@
     <rect class="eq eq-4" x="916" y="244" width="8" height="12" rx="3" fill="#10b981" opacity="0.85"/>
     <rect class="eq eq-0" x="936" y="244" width="8" height="12" rx="3" fill="#00f0ff" opacity="0.85"/>
     <!-- Status footer label -->
-    <text x="36" y="268" fill="#475569" class="mono" font-size="10" font-weight="600">&#x25CF; LIVE TELEMETRY BUS // REFRESHED: 2026-10-03 &#x2022; GITHUB ACTIONS PIPELINE</text>
+    <text x="36" y="268" fill="#475569" class="mono" font-size="10" font-weight="600">&#x25CF; LIVE TELEMETRY BUS // REFRESHED: 2026-10-04 &#x2022; GITHUB ACTIONS PIPELINE</text>
     <text x="944" y="268" text-anchor="end" fill="#00f0ff" class="mono" font-size="10" font-weight="600" opacity="0.8">RHYTHM: 100% HEALTHY</text>
   </g>
 </svg>
